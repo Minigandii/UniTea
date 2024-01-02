@@ -3,10 +3,12 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed;
+    public float climbSpeed;
     public float jumpForce;
 
     private bool isJumping;
     private bool isGrounded;
+    [HideInInspector]
     public bool isClimbing;
 
     public Transform groundCheck;
@@ -23,7 +25,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetButtonDown("Jump") && isGrounded)
+
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
             isJumping = true;
         }
@@ -31,11 +34,11 @@ public class PlayerMovement : MonoBehaviour
     }
     
     void FixedUpdate()
-    {  
+    {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, collisionLayers);
 
         horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
-        verticalMovement = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
+        verticalMovement = Input.GetAxis("Vertical") * climbSpeed * Time.deltaTime;
 
         MovePlayer(horizontalMovement, verticalMovement);
         
@@ -43,6 +46,7 @@ public class PlayerMovement : MonoBehaviour
 
         float characterVelocity = Mathf.Abs(rb.velocity.x);
         animator.SetFloat("Speed", characterVelocity);
+        animator.SetBool("isClimbing", isClimbing);
     }
 
     
@@ -61,7 +65,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            Vector3 targetVelocity = new Vector2(rb.velocity.x, _verticalMovement);
+            Vector3 targetVelocity = new Vector2(0, _verticalMovement);
             rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref velocity, .05f);
         }
 
