@@ -11,7 +11,7 @@ public class GameOverManager : MonoBehaviour
     {
         if (instance != null)
         {
-            Debug.LogWarning("Il y a plus d'une instance de GameOverManager dans la scène");
+            Debug.LogWarning("Il y a plus d'une instance de GameOverManager dans la scï¿½ne");
             return;
         }
 
@@ -37,7 +37,8 @@ public class GameOverManager : MonoBehaviour
 
     public void MainMenuButton()
     {
-
+        DontDestroyOnLoadScene.instance.RemoveFromDontDestroyOnLoad();
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void QuitButton()
