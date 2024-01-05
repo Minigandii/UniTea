@@ -17,7 +17,7 @@ public class PlayerHealth : MonoBehaviour
     {
         if (instance != null)
         {
-            Debug.LogWarning("Il y a plus d'une instance de PlayerHealth dans la scène");
+            Debug.LogWarning("Il y a plus d'une instance de PlayerHealth dans la scï¿½ne");
             return;
         }
 
@@ -81,6 +81,7 @@ public class PlayerHealth : MonoBehaviour
         PlayerMovement.instance.enabled = false;
         PlayerMovement.instance.animator.SetTrigger("Die");
         PlayerMovement.instance.rb.bodyType = RigidbodyType2D.Kinematic;
+        PlayerMovement.instance.rb.velocity = Vector3.zero;
         PlayerMovement.instance.playerCollider.enabled = false;
         GameOverManager.instance.OnPlayerDeath();
     }
