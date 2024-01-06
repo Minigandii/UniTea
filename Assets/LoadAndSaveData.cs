@@ -9,7 +9,7 @@ public class LoadAndSaveData : MonoBehaviour
     {
         if (instance != null)
         {
-            Debug.LogWarning("Il y a plus d'une instance de LoadAndSaveData dans la scène");
+            Debug.LogWarning("Il y a plus d'une instance de LoadAndSaveData dans la scï¿½ne");
             return;
         }
 
@@ -26,6 +26,11 @@ public class LoadAndSaveData : MonoBehaviour
     public void SaveData()
     {
         PlayerPrefs.SetInt("coinsCount", Inventory.instance.coinsCount);
+        
+        if(CurrentSceneManager.instance.levelToUnlock > PlayerPrefs.GetInt("levelReached", 1))
+        {
+            PlayerPrefs.SetInt("levelReached", CurrentSceneManager.instance.levelToUnlock);
+        }
 
     }
 

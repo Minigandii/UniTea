@@ -4,6 +4,7 @@ public class CurrentSceneManager : MonoBehaviour
 {
     public int coinsPickedUpInThisSceneCount;
     public Vector3 respawnPoint;
+    public int levelToUnlock;
 
     public static CurrentSceneManager instance;
 
@@ -11,7 +12,7 @@ public class CurrentSceneManager : MonoBehaviour
     {
         if (instance != null)
         {
-            Debug.LogWarning("Il y a plus d'une instance de CurrentSceneManager dans la scène");
+            Debug.LogWarning("Il y a plus d'une instance de CurrentSceneManager dans la scï¿½ne");
             return;
         }
 

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2546895388794024249}
   - component: {fileID: 2546895388794024248}
   - component: {fileID: 2546895388794024251}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 2546895388794024240}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.5, y: -1.51, z: 0}
-  m_LocalScale: {x: 1.49, y: 1.49, z: 1.49}
+  m_LocalScale: {x: 1.4899999, y: 1.4899999, z: 1.4899999}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2546895389322523193}
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 3
   m_Sprite: {fileID: 1070829102, guid: 3573029bc42c38f42a829e1442ea836a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -103,18 +103,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 250
-  climbSpeed: 0
+  climbSpeed: 150
   jumpForce: 300
   isClimbing: 0
   groundCheck: {fileID: 2546895389322523193}
-  groundCheckRadius: 0
+  groundCheckRadius: 0.34
   collisionLayers:
     serializedVersion: 2
     m_Bits: 1
   rb: {fileID: 2546895388794024242}
   animator: {fileID: 2546895388794024249}
   sprintRenderer: {fileID: 2546895388794024252}
-  playerCollider: {fileID: 0}
+  playerCollider: {fileID: 2546895388794024251}
 --- !u!50 &2546895388794024242
 Rigidbody2D:
   serializedVersion: 4
@@ -216,7 +216,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2546895389322523198}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.026, y: -0.34, z: 0}
+  m_LocalPosition: {x: 0.026, y: -0.328, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
