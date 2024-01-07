@@ -8,10 +8,12 @@ public class Inventory : MonoBehaviour
    public Text coinsCountText;
 
    public List<Item> content = new List<Item>();
-   public int contentCurrentIndex = 0;
+   private int contentCurrentIndex = 0;
    public Image itemImageUI;
    public Text itemNameUI;
    public Sprite emptyItemImage;
+
+    public PlayerEffects playerEffects;
 
    public static Inventory instance;
 
@@ -28,7 +30,7 @@ public class Inventory : MonoBehaviour
 
    private void Start()
    {
-    UpdateIventoryUI();
+        UpdateInventoryUI();
    }
 
    public void ConsumeItem()
@@ -40,10 +42,10 @@ public class Inventory : MonoBehaviour
 
         Item currentItem = content[0];
         PlayerHealth.instance.HealPlayer(currentItem.hpGiven);
-        PlayerMovement.instance.moveSpeed += currentItem.speedGiven;
+        playerEffects.AddSpeed(currentItem.speedGiven, currentItem.speedDuration);
         content.Remove(currentItem);
         GetNextItem();
-        UpdateIventoryUI();
+        UpdateInventoryUI();
    }
 
    public void GetNextItem()
@@ -58,7 +60,7 @@ public class Inventory : MonoBehaviour
         {
             contentCurrentIndex = 0;
         }
-        UpdateIventoryUI();
+        UpdateInventoryUI();
    }
 
    public void GetPreviousItem()
@@ -73,10 +75,10 @@ public class Inventory : MonoBehaviour
         {
             contentCurrentIndex = content.Count - 1;
         }
-        UpdateIventoryUI();
+        UpdateInventoryUI();
    }
 
-   public void UpdateIventoryUI()
+   public void UpdateInventoryUI()
    {
         if(content.Count > 0)
         {

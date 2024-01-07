@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   name: Speed Potion
-  description: Potion increasing speed by 50 units for 10 seconds
+  description: Potion increasing speed by 200 units for 5 seconds
   image: {fileID: 21300000, guid: e5dbe1e6022c544f1b653fc3f78258fa, type: 3}
   hpGiven: 0
-  speedGiven: 50
-  speedDuration: 10
+  speedGiven: 200
+  speedDuration: 5
