@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1310071904266392645}
   - component: {fileID: 1310071904266392644}
   m_Layer: 0
-  m_Name: PNJ01
+  m_Name: PNJ01 - dialog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
