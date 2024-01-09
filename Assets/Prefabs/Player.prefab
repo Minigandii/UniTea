@@ -177,6 +177,7 @@ MonoBehaviour:
   invincibilityTime: 3
   graphics: {fileID: 2546895388794024252}
   healthBar: {fileID: 0}
+  hitSound: {fileID: 8300000, guid: a696e0bc5c5aea14d86c93f3dbe8dc2a, type: 3}
 --- !u!70 &2546895388794024251
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

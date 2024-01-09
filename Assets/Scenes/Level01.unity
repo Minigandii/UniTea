@@ -4886,6 +4886,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7846427600497802285, guid: 0e8020ab4c7c048f18dac0a5e3ae16e4, type: 3}
+      propertyPath: killSound
+      value: 
+      objectReference: {fileID: 8300000, guid: ee49f4a05db9d5f46afd103400e84163, type: 3}
     - target: {fileID: 7846427600497802286, guid: 0e8020ab4c7c048f18dac0a5e3ae16e4, type: 3}
       propertyPath: m_IsActive
       value: 1

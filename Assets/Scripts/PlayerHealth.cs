@@ -10,8 +10,8 @@ public class PlayerHealth : MonoBehaviour
     public float invincibilityTime = 3f;
     public SpriteRenderer graphics;
     public HealthBar healthBar;
-
     public static PlayerHealth instance;
+    public AudioClip hitSound;
 
     private void Awake()
     {
@@ -62,6 +62,7 @@ public class PlayerHealth : MonoBehaviour
     {
         if (!isInvincible)
         {
+            AudioManager.instance.PlayClipAt(hitSound, transform.position);
             currentHealth -= damage;
             healthBar.SetHealth(currentHealth);
             if(currentHealth <= 0)
