@@ -179,8 +179,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
-  m_Sprite: {fileID: 1553096776, guid: 4cd3ed042f4b84337af13a8d04325809, type: 3}
+  m_SortingOrder: 4
+  m_Sprite: {fileID: -551389387, guid: e8abfbfb150632345b8733f14cdde465, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -208,7 +208,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1, y: 0.9375}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -229,7 +229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cbe196741f634b7f98ae1f93a6ec9ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 1
   waypoints:
   - {fileID: 7846427601991252348}
   - {fileID: 7846427600381118585}
@@ -245,7 +245,7 @@ Animator:
   m_GameObject: {fileID: 7846427600694103729}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f6f82e7600d2940f6bbf70f49290fee3, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4701e7cbf0c56c44baaf44234787ce70, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -266,7 +266,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7846427601917397741}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Policer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
