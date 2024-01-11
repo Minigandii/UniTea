@@ -200,4 +200,5 @@ MonoBehaviour:
   itemsToSell:
   - {fileID: 11400000, guid: a19669acdc611421b89697d45195ed44, type: 2}
   - {fileID: 11400000, guid: cffac3380f1af406396c022f5e6a1408, type: 2}
+  - {fileID: 11400000, guid: 734c4e42177c4c04a92dd02535ea40bb, type: 2}
   pnjName: Marchand

@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2d7a6502a26754e99b4fc6d04504745f, type: 3}
-  m_Name: HealthPotion
+  m_Name: Painting
   m_EditorClassIdentifier: 
-  id: 1
-  name: Health Potion
+  id: 3
+  name: Painting
   description: Potion restoring 20 hp
-  price: -5
-  image: {fileID: 21300000, guid: cdb17a5a160b44c908d8853be4b04b77, type: 3}
-  hpGiven: 20
+  price: 20
+  image: {fileID: 21300000, guid: bf1eb1d39b5030446999965caa2ce7f8, type: 3}
+  hpGiven: 0
   speedGiven: 0
   speedDuration: 0
