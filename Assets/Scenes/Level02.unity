@@ -154,6 +154,14 @@ PrefabInstance:
       propertyPath: sellButtonsParent
       value: 
       objectReference: {fileID: 763220674}
+    - target: {fileID: 8310486267427582451, guid: 9739455b3ee4c44b09fdbf77f6f4d37c, type: 3}
+      propertyPath: allItems.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8310486267427582451, guid: 9739455b3ee4c44b09fdbf77f6f4d37c, type: 3}
+      propertyPath: allItems.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 734c4e42177c4c04a92dd02535ea40bb, type: 2}
     - target: {fileID: 8437527959751305394, guid: 9739455b3ee4c44b09fdbf77f6f4d37c, type: 3}
       propertyPath: GameOverUI
       value: 

@@ -40,12 +40,15 @@ public class Inventory : MonoBehaviour
             return;
         }
 
-        Item currentItem = content[0];
-        PlayerHealth.instance.HealPlayer(currentItem.hpGiven);
+        Item currentItem = content[contentCurrentIndex];
+        if (currentItem.price < 0)
+        {
+                    PlayerHealth.instance.HealPlayer(currentItem.hpGiven);
         playerEffects.AddSpeed(currentItem.speedGiven, currentItem.speedDuration);
         content.Remove(currentItem);
-        GetNextItem();
+                GetNextItem();
         UpdateInventoryUI();
+        }
    }
 
    public void GetNextItem()
