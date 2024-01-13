@@ -3579,6 +3579,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2546895388794024242, guid: 14350c9f0010746c4b8470d161e1492e, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 9e504f32a83014ae0a8cc34e8c04d41c, type: 2}
     - target: {fileID: 2546895388794024248, guid: 14350c9f0010746c4b8470d161e1492e, type: 3}
       propertyPath: healthBar
       value: 
@@ -8391,9 +8395,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1310071904266392645, guid: 79243529b68b14fe98d2927a39c2a745, type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: "Profite    de    l'aube    pour    t'\xE9chaper    avec    ton    butin   
-        mais    garre    aux    policiers ,    ils    sont    \xE0    ta    recherche  
-        !"
+      value: "Profite    de    l'aube    pour    t'\xE9chapper    avec    ton   
+        butin    mais    garre    aux    policiers ,    ils    sont    \xE0    ta   
+        recherche   !"
       objectReference: {fileID: 0}
     - target: {fileID: 1310071904266392646, guid: 79243529b68b14fe98d2927a39c2a745, type: 3}
       propertyPath: m_RootOrder
