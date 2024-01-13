@@ -6,8 +6,10 @@ public class PlayerMovement : MonoBehaviour
     public float climbSpeed;
     public float jumpForce;
 
-    private bool isJumping;
+    [HideInInspector]
+    public bool isJumping;
     private bool isGrounded;
+    
     [HideInInspector]
     public bool isClimbing;
 
@@ -30,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (instance != null)
         {
-            Debug.LogWarning("Il y a plus d'une instance de PlayerMovement dans la scène");
+            Debug.LogWarning("Il y a plus d'une instance de PlayerMovement dans la scï¿½ne");
             return;
         }
 

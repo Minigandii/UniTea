@@ -13,9 +13,8 @@ public class HealPowerUp : MonoBehaviour
             {
                 AudioManager.instance.PlayClipAt(pickupSound, transform.position);
                 PlayerHealth.instance.HealPlayer(healthPoints);
-                Destroy(gameObject);
-
             }
+            Destroy(gameObject);
         }
     }
 }

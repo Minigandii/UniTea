@@ -8,7 +8,7 @@ public class Chest : MonoBehaviour
 
     public Animator animator;
     public int coinsToAdd;
-    //public AudioClip soundToPlay;
+    public AudioClip soundToPlay;
 
     void Awake()
     {
@@ -28,7 +28,7 @@ public class Chest : MonoBehaviour
     {
         animator.SetTrigger("OpenChest");
         Inventory.instance.AddCoins(coinsToAdd);
-        //AudioManager.instance.PlayClipAt(soundToPlay, transform.position);
+        AudioManager.instance.PlayClipAt(soundToPlay, transform.position);
         GetComponent<BoxCollider2D>().enabled = false;
         interactUI.enabled = false;
     }

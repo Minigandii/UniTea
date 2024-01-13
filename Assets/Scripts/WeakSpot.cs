@@ -14,6 +14,7 @@ public class WeakSpot : MonoBehaviour
         {
             //AudioManager.instance.PlayClipAt(killSound, transform.position);
             Destroy(objectToDestroy);
+            PlayerMovement.instance.rb.AddForce(new Vector2(0f, 400));
         }
     }
 }

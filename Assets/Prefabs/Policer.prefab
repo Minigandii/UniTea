@@ -103,6 +103,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToDestroy: {fileID: 7846427601917397740}
+  playerRb: {fileID: 2546895388794024242, guid: 14350c9f0010746c4b8470d161e1492e, type: 3}
+  jumpForce: 200
 --- !u!1 &7846427600694103729
 GameObject:
   m_ObjectHideFlags: 0
