@@ -483,7 +483,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1310071904266392645, guid: 79243529b68b14fe98d2927a39c2a745, type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: "Soit   le   bienvenu   dans   la   rue  du   traffic,  o\xF9  tu  
+      value: "Sois   le   bienvenu   dans   la   rue  du   traffic,  o\xF9  tu  
         pourras   vendre  tes   trouvailles    \xE0   bon   prix,   et   en   toute  
         ill\xE9galit\xE9 !"
       objectReference: {fileID: 0}
@@ -6390,6 +6390,11 @@ PrefabInstance:
       objectReference: {fileID: 232403496}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b226c3b26db84ba58433d3c56308a7b, type: 3}
+--- !u!4 &1366801814 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2581332507277174012, guid: 6b226c3b26db84ba58433d3c56308a7b, type: 3}
+  m_PrefabInstance: {fileID: 1366801813}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1500631748 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6519596778389789520, guid: cf412dd3041b94ba0929ebb5d89aa5a5, type: 3}
@@ -6615,6 +6620,7 @@ GameObject:
   - component: {fileID: 1865860600}
   - component: {fileID: 1865860602}
   - component: {fileID: 1865860601}
+  - component: {fileID: 1865860603}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -70848,6 +70854,20 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1865860603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865860599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed626dace31ce4482920e5c2cf2942f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 1366801814}
+  relativeMove: 0.9
 --- !u!114 &1928829110 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7962896548483970461, guid: cf412dd3041b94ba0929ebb5d89aa5a5, type: 3}
