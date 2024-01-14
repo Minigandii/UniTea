@@ -367,6 +367,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1629740822}
+    - target: {fileID: 7962896549253256414, guid: cf412dd3041b94ba0929ebb5d89aa5a5, type: 3}
+      propertyPath: m_Text
+      value: APPUIE    SUR    'E'    POUR    INTERAGIR
+      objectReference: {fileID: 0}
+    - target: {fileID: 7962896549253256414, guid: cf412dd3041b94ba0929ebb5d89aa5a5, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 7962896549322425278, guid: cf412dd3041b94ba0929ebb5d89aa5a5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
