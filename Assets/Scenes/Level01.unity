@@ -55588,6 +55588,14 @@ PrefabInstance:
       propertyPath: soundEffectMixer
       value: 
       objectReference: {fileID: -8389899755859310284, guid: 8083d817369ec6f4cb7b68f65a9f2546, type: 2}
+    - target: {fileID: 1737604765454485903, guid: d2c6ee2c8526047feaa1474b8cedde16, type: 3}
+      propertyPath: playlist.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1737604765454485903, guid: d2c6ee2c8526047feaa1474b8cedde16, type: 3}
+      propertyPath: playlist.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6542887b399418849992ee4b19837ea5, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2c6ee2c8526047feaa1474b8cedde16, type: 3}
 --- !u!1001 &2546895388116684741
