@@ -9036,7 +9036,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1310071904266392645, guid: 79243529b68b14fe98d2927a39c2a745, type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: 'Prend   garde,   la   police   veille   au   grain. '
+      value: 'Prends   garde,   la   police   veille   au   grain. '
       objectReference: {fileID: 0}
     - target: {fileID: 1310071904266392646, guid: 79243529b68b14fe98d2927a39c2a745, type: 3}
       propertyPath: m_RootOrder

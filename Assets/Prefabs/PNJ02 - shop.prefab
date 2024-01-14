@@ -154,11 +154,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Zehira
-    sentences:
-    - Bonjour,   je   m'appelle   Zehira
-    - "Est-ce   que   tu   es   s\xFBr   que   tu   vas   valider   ton   ann\xE9e 
-      ?"
+    name: Marchand
+    sentences: []
 --- !u!61 &5998469539471662567
 BoxCollider2D:
   m_ObjectHideFlags: 0
