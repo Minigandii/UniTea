@@ -103,8 +103,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToDestroy: {fileID: 7846427601917397740}
-  playerRb: {fileID: 2546895388794024242, guid: 14350c9f0010746c4b8470d161e1492e, type: 3}
-  jumpForce: 200
 --- !u!1 &7846427600694103729
 GameObject:
   m_ObjectHideFlags: 0
@@ -181,7 +179,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 6
   m_Sprite: {fileID: -551389387, guid: e8abfbfb150632345b8733f14cdde465, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
