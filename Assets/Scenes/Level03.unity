@@ -239,6 +239,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 792448475}
+    - target: {fileID: 1083967946, guid: cf412dd3041b94ba0929ebb5d89aa5a5, type: 3}
+      propertyPath: m_Text
+      value: CONTINUER >
+      objectReference: {fileID: 0}
     - target: {fileID: 1511963011, guid: cf412dd3041b94ba0929ebb5d89aa5a5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -262,6 +266,10 @@ PrefabInstance:
     - target: {fileID: 7962896547855285471, guid: cf412dd3041b94ba0929ebb5d89aa5a5, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7962896548011805179, guid: cf412dd3041b94ba0929ebb5d89aa5a5, type: 3}
+      propertyPath: m_Text
+      value: FERMER
       objectReference: {fileID: 0}
     - target: {fileID: 7962896548465577105, guid: cf412dd3041b94ba0929ebb5d89aa5a5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -696,7 +704,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 1.42, y: 0.45499998, z: 0}
   m_MaxChunkCount: 16
@@ -3868,7 +3876,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0.19999999, y: 0.31, z: 0}
   m_MaxChunkCount: 16
@@ -4014,6 +4022,10 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1928829110}
+    - target: {fileID: 2546895388794024252, guid: 14350c9f0010746c4b8470d161e1492e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2546895388794024253, guid: 14350c9f0010746c4b8470d161e1492e, type: 3}
       propertyPath: moveSpeed
       value: 300
@@ -10360,7 +10372,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 1.42, y: 0.62, z: 0}
   m_MaxChunkCount: 16
@@ -11474,7 +11486,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 5
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
